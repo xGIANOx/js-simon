@@ -46,11 +46,16 @@ function checkGuesses() {
         correctGuesses++;
       }
     }
-  
+
+    const winEl = document.querySelector('.win')
+   
+
+    const pointsEl = document.querySelector('.points')
+    
+   
     if (correctGuesses === 7) {
-      alert("Congratulations! You guessed all 7 numbers correctly!");
+        winEl.innerHTML += `Congratulations! You guessed all 7 numbers correctly!`;
     } else {
-      alert(`You guessed ${correctGuesses} out of 7 numbers correctly.`);
+        pointsEl.innerHTML += `You guessed ${correctGuesses} out of 7 numbers correctly.`;
     }
   }
-    

@@ -44,3 +44,23 @@ button{
     margin-top: 1rem;
     background-color: greenyellow;
 }
+
+
+.points{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.win{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 20px;
+}
